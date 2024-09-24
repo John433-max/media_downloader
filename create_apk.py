@@ -1,6 +1,7 @@
 
 import os
 import subprocess
+from download_media import download_spotify_song, download_youtube_video
 
 def create_apk(media_file, app_name):
     # Create a simple main.py file for the APK
